@@ -20,6 +20,13 @@ def multiplylists():
 	b = np.array([3,2])
 	print(a * b)
 
+def randomInt():
+	##Cria um nparray com 20 elementos aleatorios [0 1000)
+	rand_arr = np.random.randint(0,1000,20)
+	print(rand_arr)
+
+
 test1()
 createarray()
 multiplylists()
+randomInt()
